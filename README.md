@@ -1,32 +1,12 @@
-# React + TypeScript + Vite
+# Mini Kitaplık - Sprint 4
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Bu proje, React + TypeScript + Vite kullanılarak geliştirilmiş bir kitaplık yönetim uygulaması.
 
-Currently, two official plugins are available:
+## 🚀 Vercel Linki
+https://mini-kitaplik-theta.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🛠️ Özellikler
+- **Arama Çubuğu:** Başlık veya yazara göre anlık filtreleme.
+- **Kategori Filtresi:** Web, CS ve Tasarım kategorilerine göre süzme.
+- **Favori Yönetimi:** Kitapları favorilere ekleme ve çıkarma.
+- **Kalıcılık (localStorage):** Son aranan metin ve favori listesi tarayıcı kapatılsa dahi saklanabilir.
